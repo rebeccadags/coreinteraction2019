@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Still life</title>
+  </head>
+
+  <style>
+    html, body, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    body{
+      background-color: #fcf7e5;
+      margin-top:0px;
+    }
+
+    p {
+      font-family: helvetica, sans-serif;
+      font-weight: lighter;
+      font-size: 100px;
+      padding-left: 40px;
+    }
+
+    .shape {
+      position: fixed;
+    }
+
+    #wood {
+      background-color: tan;
+      width: 115px;
+      height: 500px;
+      background: radial-gradient(circle at 50px 50px, #efcd9f, #8e642a);
+      z-index: 20;
+      margin-left: 550px;
+      z-index: 1;
+    }
+
+    #wood_behind {
+      background-color: blue;
+      width: 115px;
+      height: 500px;
+      background: radial-gradient(circle at 50px 50px, #debb8a, #8e642a);
+      margin-left: 520px;
+    }
+
+    #circle {
+      background-color: #c94c4c;
+      width: 250px;
+      height: 250px;
+      margin-top: 330px;
+      margin-left: 650px;
+      border-radius: 50vw;
+      background: radial-gradient(circle at 80px 75px, white, #d1d1d1, #6e6f72);
+      z-index:3;
+    }
+
+    #lemon {
+      background-color: #c94c4c;
+      width: 180px;
+      height: 180px;
+      border-radius: 50vw;
+      background: radial-gradient(circle at 50px 35px, #efc909, #cc8b0a, #c43c0f);
+      margin-top: 480px;
+      right: 780px;
+      padding-bottom: 100-;
+      z-index:10;
+    }
+
+    #vase {
+      width: 115px;
+      height: 400px;
+      background-color:#a3c984;
+      margin-top:150px;
+      border-radius: 75px / 300px;
+      background: radial-gradient(circle at 50px 35px, #a3c9847a, #477224de, #253a14e0);
+      right: 450px;
+    }
+
+    #tape {
+      background-color: #1c3fb2;
+      width: 165px;
+      height: 195px;
+      border-radius: 100px;
+      margin-left: 405px;
+      margin-top: 390px;
+      background: radial-gradient(circle at 100px 50px, #1c3fb2, #061e6d);
+      z-index: 4;
+    }
+
+    #tape_shadow {
+      background-color: #92d192;
+      width: 140px;
+      height: 195px;
+      border-radius: 100px;
+      margin-left: 397px;
+      margin-top: 395px;
+      background: radial-gradient(circle at 100px 50px, #8e9ccc, #4d5c8e);
+      z-index: 5;
+    }
+
+    #tape_hole {
+      background-color: #dcddd7;
+      width: 80px;
+      height: 95px;
+      border-radius: 100px;
+      margin-left: 430px;
+      margin-top: 445px;
+      background: radial-gradient(circle at 100px 50px, #dcddd7, #85877f);
+      z-index: 5;
+    }
+
+    #stem {
+      background-color: #dfe2da;
+      width: 8px;
+      height: 500px;
+      margin-left: 930px;
+      margin-top: 10px;
+      background: radial-gradient(circle at 100px 100px, #a9cc49, #4d660c);
+      z-index: -2;
+    }
+
+    #stem_2{
+      background-color: #dfe2da;
+      width: 8px;
+      height: 90px;
+      margin-left: 910px;
+      margin-top: 50px;
+      background: radial-gradient(circle at 100px 20px, #cee88d, #4d660c);
+      transform: rotate(-25deg);
+      z-index: -8;
+    }
+
+    #flower_1 {
+      background-color: #f3f3f3;
+      width: 40px;
+      height: 60px;
+      border-radius: 360px;
+      margin-left: 870px;
+      margin-top: 26px;
+      transform: rotate(-60deg);
+    }
+
+    #flower_2 {
+      background-color: #d8deccad;
+      width: 40px;
+      height: 60px;
+      border-radius: 360px;
+      margin-left: 868px;
+      margin-top: 35px;
+      transform: rotate(-69deg);
+      z-index: -3;
+    }
+
+    #flower_3 {
+      background-color: #dfe2da;
+      width: 40px;
+      height: 55px;
+      border-radius: 360px;
+      margin-left: 880px;
+      margin-top: 30px;
+      transform: rotate(-20deg);
+
+    }
+
+    #flower_4 {
+      background-color: #f3f3f3;
+      width: 40px;
+      height: 60px;
+      border-radius: 360px;
+      margin-left: 915px;
+      margin-top: -20px;
+    }
+
+    #flower_5 {
+      background-color: #dfe2da;
+      width: 40px;
+      height: 55px;
+      border-radius: 360px;
+      margin-left: 925px;
+      margin-top: -15px;
+      transform: rotate(20deg);
+      z-index: -5;
+    }
+
+    #flower_6 {
+      background-color: #dfe2da;
+      width: 40px;
+      height: 55px;
+      border-radius: 360px;
+      margin-left: 905px;
+      margin-top: -15px;
+      transform: rotate(-25deg);
+      z-index: -5;
+    }
+
+  </style>
+
+  <body>
+    <p>Still life</p>
+    <div class="shape" id="lemon"></div>
+    <div class="shape" id="circle"></div>
+    <div class="shape" id="vase"></div>
+    <div class="shape" id="wood"></div>
+    <div class="shape" id="wood_behind"></div>
+    <div class="shape" id="tape"></div>
+    <div class="shape" id="tape_shadow"></div>
+    <div class="shape" id="stem"></div>
+    <div class="shape" id="stem_2"></div>
+    <div class="shape" id="flower_1"></div>
+    <div class="shape" id="flower_2"></div>
+    <div class="shape" id="flower_3"></div>
+    <div class="shape" id="flower_4"></div>
+    <div class="shape" id="flower_5"></div>
+    <div class="shape" id="flower_6"></div>
+  </body>
+
+</html>

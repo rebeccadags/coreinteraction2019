@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>reactive</title>
+    <style>
+    html, body, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #0e2c59;
+    }
+
+    .shape {
+      position: fixed;
+    }
+
+    #square {
+      background-color:#deeaee;
+      width: 30vh;
+      height: 30vh;
+      right: 0px;
+      bottom: 0px;
+      z-index: 10;
+    }
+
+    #circle {
+      background-color: #c94c4c;
+      width: 50vw;
+      height: 50vw;
+      border-radius: 50vw;
+      bottom: 0;
+      z-index: 20;
+    }
+
+    #oval {
+      width: 20vh;
+      height: 10vh;
+      background-color:#034f84;
+      border-radius: 20vh / 10vh;
+      right: 0;
+      top: 0;
+    }
+
+    #triangle {
+      width: 0;
+      height: 0;
+      border-left: 35vw solid transparent;
+      border-bottom: 60vw solid #92a8d1;
+      border-right: 35vw solid transparent;
+    }
+
+    #parallelogram {
+      width: 30vw;
+      height: 20vw;
+      background-color: #f7786b;
+      top:0;
+      right: 5vw;
+      transform: skew(20deg);
+    }
+
+    #diamond {
+      background-color: #f7cac9;
+      width: 30vh;
+      height: 30vh;
+      right: 25vh;
+      top: 30vh;
+      transform: rotate(45deg)
+    }
+
+    #smalldiamond {
+      background-color: blue;
+      width: 10vh;
+      height: 10vh;
+      right: 10vh;
+      top: 10vh;
+      transform: rotate(45deg)
+    }
+
+    #line-x {
+      border-top: 1px solid #fff;
+      width: 100vw;
+      top: 50vh;
+    }
+
+    #line-y {
+      border-right: 1px solid #fff;
+      height: 100vw;
+      left: 50vh;
+      z-index: 50vw;
+    }
+
+    p {
+      width: 100vw;
+      text-align: center;
+      line-height: 100vh;
+      color: #fff;
+      font-family: helvetica, sans-serif;
+      font-size: 15vw;
+      z-index: 100;
+      position: fixed;
+    }
+
+    </style>
+
+  </head>
+
+  <body>
+  <div class="shape" id="square"></div>
+  <div class="shape" id="circle"></div>
+  <div class="shape" id="oval"></div>
+  <div class="shape" id="triangle"></div>
+  <div class="shape" id="parallelogram"></div>
+  <div class="shape" id="diamond"></div>
+  <div class="shape" id="line-y"></div>
+  <div class="shape" id="line-x"></div>
+  <p>02/05/2019</p>
+
+  </body>
+</html>
