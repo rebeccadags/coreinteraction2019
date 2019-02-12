@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Exercise 3</title>
+
+  <style>
+    html, body, p {
+      margin: 0;
+      padding: 0;
+    }
+
+    .shape {
+      position: fixed;
+    }
+
+    #stem {
+      background-color:black;
+      width: 15vh;
+      height: 95vh;
+      bottom: 0px;
+      z-index: 0;
+    }
+
+    #leg {
+      background-color:black;
+      width: 12vh;
+      height: 95vh;
+      top: 40vh;
+      left: 35vh;
+      transform: rotate(-55deg);
+      bottom: 0vh;
+      z-index: 0;
+    }
+
+    .r-center {
+    width: 20vh;
+    height: 40vh;
+    background-color: white;
+    border-bottom-right-radius: 100vh;
+    border-top-right-radius: 100vh;
+    bottom: 30vh;
+    z-index:5;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+    .half-circle {
+    width: 60vh;
+    height: 70vh;
+    border-bottom-right-radius: 100vh;
+    border-top-right-radius: 100vh;
+    border: 15vh solid black;
+    border-left: 0;
+    z-index: 2;
+    position: fixed;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+    #left-a {
+      background-color:black;
+      width: 10vh;
+      height: 255vh;
+      left: 90vh;
+      bottom: 3vh;
+      z-index: 0;
+      transform: rotate(20deg);
+    }
+
+    #right-a {
+      background-color:black;
+      width: 15vh;
+      height: 300vh;
+      left: 70vh;
+      bottom: -10vh;
+      transform: rotate(-15deg);
+      z-index: 0;
+    }
+
+    #crossbar-a {
+      background-color:black;
+      width: 35vh;
+      height: 15vh;
+      bottom: 40vh;
+      left: 65vh;
+    }
+
+    #d-stem {
+      background-color:black;
+      width: 10vh;
+      height: 95vh;
+      bottom: 0px;
+      left: 115vh;
+      z-index: 0;
+    }
+
+    .d-curve {
+    width: 70vh;
+    height: 80vh;
+    border-bottom-right-radius: 100vh;
+    border-top-right-radius: 100vh;
+    border: 15vh solid black;
+    margin-left: 120vh;
+    postition: fixed;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+
+
+  </style>
+
+  </head>
+
+  <body>
+      <div class="shape" id="stem"></div>
+      <div class="shape" id="leg"></div>
+      <div class="half-circle"></div>
+      <div class="r-center"></div>
+      <div class="shape" id="left-a"></div>
+      <div class="shape" id="right-a"></div>
+      <div class="shape" id="crossbar-a"></div>
+      <div class="shape" id="crossbar-a"></div>
+      <div class="d-curve"></div>
+
+
+  </body>
+</html>
