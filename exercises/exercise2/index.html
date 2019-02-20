@@ -34,22 +34,24 @@
   }
 
   aside {
-    background-color: #ce7827;
-    height:110%;
+    background-color: #a54001;
+    height:120%;
     width: 15%;
     float: left;
   }
 
   .vertical-menu {
     width: 216px;
+    background-color: #a54001;
   }
 
   .vertical-menu a {
-    background-color: ##ce7827;
+    background-color: #a54001;
     color: white;
     display: block;
     padding: 65px;
     padding-top: 80px;
+    padding-bottom: 0px;
     font-family: helvetica, sans-serif;
     font-weight: bolder;
     font-style: italic;
@@ -63,6 +65,7 @@
 }
   section {
     background-color: white;
+    position: fixed;
   }
 
   footer {
@@ -73,9 +76,10 @@
   }
 
   aside section {
-    border: 2px solid #000;
+    border: 2px solid transparent;
     width: 100%;
     height: 25%;
+    position: fixed;
   }
 
   .grid-container {
@@ -85,6 +89,7 @@
   padding-top: 7%;
   margin-left: -10px;
   }
+
   .grid-item {
   border: 1px solid transparent;
   padding: 20px;
@@ -98,6 +103,112 @@
     font-size: 20px;
     font-family: helvetica, sans-serif;
   }
+
+  @media (max-width: 1200px) {
+    h1 {
+      font-size: 60px;
+    }
+
+    .vertical-menu {
+      width: 175px;
+    }
+
+    .vertical-menu a {
+      background-color: #a54001;
+      color: white;
+      display: block;
+      padding: 35px;
+      padding-top: 80px;
+      font-family: helvetica, sans-serif;
+      font-weight: bolder;
+      font-style: italic;
+      font-size: 15px;
+      text-align: center;
+      margin-top: 50%;
+    }
+
+    .grid-container {
+    display: grid;
+    width: 40px;
+    grid-template-columns: auto auto;
+    padding: 0px;
+    padding-top: 7%;
+    margin-left: -10px;
+    }
+
+    .grid-item {
+    border: 1px solid transparent;
+    width: 50%px;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    }
+
+    img {
+      width: 500px;
+    }
+
+  }
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 54px;
+    }
+
+  .grid-container {
+  display: grid;
+  width: 40px;
+  grid-template-columns: auto auto;
+  align-items: center;
+  padding: 0px;
+  padding-top: 50%;
+  margin-left: -10px;
+  display: block;
+  }
+
+  .grid-item {
+  border: 1px solid transparent;
+  width: 25%px;
+  padding: 10px;
+  font-size: 30px;
+  text-align: left;
+  }
+
+  .vertical-menu {
+    width: 600px;
+  }
+
+  .vertical-menu a {
+    width: 600px;
+    display: block;
+    text-align: left;
+    margin-top: 10%;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+
+  img {
+    width: 400px;
+  }
+
+  aside {
+    background-color: #a54001;
+    height:300px;
+    width: 600px;
+    float: left;
+    margin-top: 30px;
+  }
+
+  header {
+   height: 14%;
+   width: 110%;
+   top: -20px;
+   position: absolute;
+  }
+
+}
+
 
   </style>
 

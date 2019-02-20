@@ -1,0 +1,28 @@
+html, body {
+
+}
+
+header {
+ background-color: red;
+ margin: 50%;
+ padding: 100%;
+}
+
+aside {
+  background-color: blue;
+  margin: 50%;
+  padding: 100%;
+}
+
+main{
+  background-color: yellow;
+}
+
+section {
+  background-color: black;
+  
+}
+
+footer {
+  background-color: orange;
+}
