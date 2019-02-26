@@ -1,0 +1,51 @@
+.container {
+  height: 10200px;
+  width: 1430px;
+  background-color: white;
+  flush: left;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 11%, rgba(0,0,0,0) 38%, rgba(0,0,0,0.27) 54%, rgba(0,0,0,0.55) 71%, rgba(0,0,0,0.65) 77%, rgba(0,0,0,0.65) 84%, rgba(0,0,0,0.65) 92%, rgba(0,0,0,0.65) 93%);
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 11%,rgba(0,0,0,0) 38%,rgba(0,0,0,0.27) 54%,rgba(0,0,0,0.55) 71%,rgba(0,0,0,0.65) 77%,rgba(0,0,0,0.65) 84%,rgba(0,0,0,0.65) 92%,rgba(0,0,0,0.65) 93%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 11%,rgba(0,0,0,0) 38%,rgba(0,0,0,0.27) 54%,rgba(0,0,0,0.55) 71%,rgba(0,0,0,0.65) 77%,rgba(0,0,0,0.65) 84%,rgba(0,0,0,0.65) 92%,rgba(0,0,0,0.65) 93%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+  }
+
+.imiss {
+  font-family: 'Yeseva One', cursive;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 70;
+  color: #e1e4ea;
+  width: 900px;
+}
+
+.formfollowsfunction {
+  float: right;
+  color: #990639;
+  font-family: 'Yeseva One', cursive;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 70;
+}
+
+h3:hover{
+  font-family: 'Bungee', cursive;
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 70;
+  font-style: normal;
+  float: right;
+  color: black;
+  letter-spacing: 20px;
+
+  transition: all 1s linear;
+}
+
+h3 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 70;
+  float: right;
+  font-style: italic;
+  color: black;
+}
