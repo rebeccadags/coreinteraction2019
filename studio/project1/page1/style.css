@@ -1,0 +1,20 @@
+img {
+  max-width: 1420px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+  img {
+    max-width: 900px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  img {
+    max-width: 400px;
+  }
+}

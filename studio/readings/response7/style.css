@@ -1,0 +1,16 @@
+p {
+  font-family: 'Anton', sans-serif;
+  max-width: 700px;
+  font-weight: lighter;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 70px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+hr {
+  margin-top: 0px;
+}

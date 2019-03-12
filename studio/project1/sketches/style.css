@@ -1,0 +1,49 @@
+.container {
+  height: 10400px;
+  width: 1430px;
+  background-color: white;
+  flush: left;
+  background: rgb(38,34,34);
+background: linear-gradient(0deg, rgba(38,34,34,1) 28%, rgba(154,153,153,1) 55%, rgba(255,255,255,1) 73%);
+}
+
+.imiss {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 45px;
+  margin-top: 0;
+  margin-bottom: 70;
+  color: #e1e4ea;
+  width: 1000px;
+}
+
+.formfollowsfunction {
+  float: right;
+  color: #990639;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 70;
+}
+
+h3:hover{
+  font-family: 'Bungee', cursive;
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 70;
+  font-style: normal;
+  float: right;
+  color: black;
+  letter-spacing: 20px;
+
+  transition: all 1s linear;
+}
+
+h3 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 70;
+  float: right;
+  font-style: italic;
+  color: black;
+}
