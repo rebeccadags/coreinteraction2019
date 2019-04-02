@@ -1,0 +1,272 @@
+<html>
+<head>
+    <title>PACMAN'S SICK DAY</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: whitesmoke;
+    }
+
+    #circle {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        color: black;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+
+    }
+
+    #circle2 {
+        position: absolute;
+        width: 0px;
+             height: 0px;
+             border-right: 90px solid transparent;
+             border-top: 90px solid #141414;
+             border-left: 90px solid #141414;
+             border-bottom: 90px solid #141414;
+             border-top-left-radius: 90px;
+             border-top-right-radius: 90px;
+             border-bottom-left-radius: 90px;
+             border-bottom-right-radius: 90px;
+
+        color: black;
+        top: 10px;
+        left: 10px;
+        transition: 1s ease;
+        z-index: 5;
+    }
+
+    #circle3 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+
+    #circle4 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+
+    #circle5 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+    #circle6 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+    #circle7 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+    #circle8 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+
+    #circle9 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+
+    #circle10 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+
+    #circle11 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+
+    #circle12 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+
+    #circle13 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+
+    #circle14 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+    #circle15 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+    #circle16 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+    #circle17 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+    #circle18 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+    #circle19 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+    #circle20 {
+        position: absolute;
+        border-radius: 60px;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        top: 35px;
+        left: 25px;
+        transition: 1s ease;
+    }
+
+    #text {
+    line-height: 300px;
+    font-size: 50px;
+    text-align: center;
+    mix-blend-mode: exclusion;
+    color: white;
+    }
+
+
+</style>
+
+<body>
+    <div id="circle"></div>
+    <div id="circle2"></div>
+    <div id="circle3"></div>
+    <div id="circle4"></div>
+    <div id="circle5"></div>
+    <div id="circle6"></div>
+    <div id="circle7"></div>
+    <div id="circle8"></div>
+    <div id="circle9"></div>
+    <div id="circle10"></div>
+    <div id="circle11"></div>
+    <div id="circle12"></div>
+    <div id="circle13"></div>
+    <div id="circle14"></div>
+    <div id="circle15"></div>
+    <div id="circle16"></div>
+    <div id="circle17"></div>
+    <div id="circle18"></div>
+    <div id="circle19"></div>
+    <div id="circle20"></div>
+   </body>
+</html>
