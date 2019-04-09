@@ -9,17 +9,24 @@
           background-color: whitesmoke;
         }
 
+        .container {
+          height: 900px;
+          width: 200px;
+          position: absolute;
+          left: 0px;
+          top:0px;
+        }
+
         img {
           webkit-clip-path: circle(50% at 50% 50%);
           clip-path: circle(50% at 50% 50%);
-          height: 175px;
-          width: 175px;
+          height: 165px;
+          width: 165px;
           display: flex;
-          margin: 23px;
+          margin: 20px;
           margin-left:10px;
           flex-direction: column;
           flex-wrap: wrap;
-
         }
 
         img:hover {
@@ -29,11 +36,14 @@
     </style>
   </head>
   <body>
+    <div class="container">
       <img src="cloudslime1.jpg">
       <img src="clearslime1.png">
+    <a href="crunchy/index.html">
       <img src="crunchyslime2.png">
+    </a>
       <img src="glueslime1.jpg">
+    </div>
 
-      <video width="400" controls><source src="crunchyslime1.mov"</video>
   </body>
 </html>
