@@ -5,34 +5,35 @@
     <title>Crunchyyy</title>
 
     <script>
-
+    window.addEventListener('load', function(e) {
     const videos = document.querySelectorAll("video")
 
     videos.forEach(video => {
-      video.addEventListener("mouseover", function (){
+      video.addEventListener("click", function (){
         this.play()
       })
     })
+    });
+
+
     </script>
 
     <style>
 
         body {
-          background-color: #b3dfe5;
+          background-color: whitesmoke;
         }
 
         .grid-container {
           display: grid;
           grid-template-columns: auto auto;
           background-color: transparent;
-          padding: 10px;
-          margin-left: 300px;
+          margin-left: 350px;
         }
 
         .grid-item {
           background-color: transparent;
           width: 400px;
-          padding: 20px;
           align-items: center;
         }
 
@@ -64,8 +65,10 @@
         video {
           opacity: .6;
           display: autoplay;
-          height: 400px;
-          width: 500px;
+          height: 520px;
+          padding-left: 25px;
+          max-width: 400px;
+          box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
 
         #one {
@@ -102,19 +105,21 @@
             22%, 24% 18%, 28% 13%);
             height: 350px;
             width: 450px;
-            
+
         }
 
-
+        #four {
+        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+        }
 
         video:hover {
           opacity: 1;
         }
-
-
     </style>
   </head>
+
   <body>
+
     <div class="container">
       <img src="cloudslime1.jpg">
       <img src="clearslime1.png">
@@ -124,28 +129,56 @@
 
 <div class="grid-container">
 
-
-    <div class="grid-item">
-      <div id="one">
-      <video width="400" src="crunchyslime1.mov" loop autoplay preload></video>
-      </div>
-    </div>
-
-    <div id="three">
-    <div class="grid-item">
-      <video src="crunchyslime3.mov" loop autoplay preload></video>
+  <div class="grid-item">
+    <div id="one">
+    <video width="400" src="crunchyvids/crunchy1.mp4" loop preload></video>
     </div>
   </div>
 
-    <div id="two">
+    <div id="one">
     <div class="grid-item">
-      <video width="400" src="crunchyslime2.mov" loop autoplay preload></video>
+      <video width="400" src="crunchyvids/crunchy7.mp4" loop preload></video>
     </div>
   </div>
 
+    <div id="one">
+    <div class="grid-item">
+      <video width="400" src="crunchyvids/crunchy8.mp4" loop preload></video>
+    </div>
+  </div>
 
+    <div id="one">
+    <div class="grid-item">
+      <video src="crunchyvids/crunchy2.mp4" loop preload></video>
+    </div>
+  </div>
+
+    <div id="one">
+    <div class="grid-item">
+      <video width="400" src="crunchyvids/crunchy3.mp4" loop preload></video>
+    </div>
+  </div>
+
+    <div id="one">
+    <div class="grid-item">
+      <video width="400" src="crunchyvids/crunchy4.mp4" loop preload></video>
+    </div>
+  </div>
+
+    <div id="one">
+    <div class="grid-item">
+      <video width="400" src="crunchyvids/crunchy5.mp4" loop preload></video>
+    </div>
+  </div>
+
+    <div id="one">
+    <div class="grid-item">
+      <video width="400" src="crunchyvids/crunchy6.mp4" loop preload></video>
+    </div>
+  </div>
 
 
 </div>
+
   </body>
 </html>
