@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Random Type</title>
+    <script src="index.js"</script>
+
+    </script>
+
+  <script>
+    $(document).ready(function){
+      
+    }
+    var quotes = [
+      'okay',
+      'ugh',
+      'dumb'
+    ]
+
+    var randomNumber = Math.floor(Math.random() * 20);
+
+    function newQuote() {
+      var randomNumber = Math.floor(Math.random() = (quotes.length));
+      document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+    }
+  </script>
+
+</head>
+
+  <body>
+    <div id="quoteDisplay">
+    </div>
+    <button onclick="newQuote()">New Quote</
+    button>
+
+    <script src="index.js"</script>
+
+  </body>
+</html>
