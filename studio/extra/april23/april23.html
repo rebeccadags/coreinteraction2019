@@ -15,34 +15,37 @@
       body {
         margin: 0;
         padding: 0;
-        background-color: #e0e0e0;
+        background-image: url("clear.png");
       }
 
       .circle {
         width: 50px;
-        height: 50px;
-        border-radius: 50px;
-        background-color: blue;
+        height: 70px;
+        background-image: url("pink.jpg");
+        transform: rotate(-50deg);
+        box-shadow: 3px 3px 3px #3a002e;
         position: fixed;
         top: 10px;
         left: 10px;
       }
 
       .square {
-        width: 50px;
-        height: 50px;
-        background-color: red;
+        width: 130px;
+        height: 130px;
+        background-image: url("blue.jpg");
+        box-shadow: 6px 6px 6px #020244;
+        transform: rotate(-10deg);
         position: fixed;
         top: 110px;
         left: 110px;
       }
 
       .triangle {
-        width: 0;
-        height: 0;
-        border-left: 25px solid transparent;
-        border-right: 25px solid transparent;
-        border-bottom: 50px solid green;
+        width: 8px;
+        height: 170px;
+        background-image: url("silver.jpg");
+        box-shadow: 4px 4px 4px #111111;
+        transform: rotate(20deg);
         position: fixed;
         top: 210px;
         left: 210px;
@@ -50,6 +53,7 @@
 
   </style>
   <body>
+    <body background="background.jpg">
     <div class="circle"></div>
     <div class="square"></div>
     <div class="triangle"></div>
