@@ -2,8 +2,8 @@ $(document).ready(function(){
 
 var doc = $(document);
 
-var width = doc.width() -100;
-var height = doc.height() -100;
+var width = doc.width() -50;
+var height = doc.height() -50;
 
 var shapes = [ $(".circle"), $(".triangle"), $(".square") ]
 
