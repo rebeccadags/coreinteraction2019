@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <title>Glue</title>
+
+    <script>
+    window.addEventListener('load', function(e) {
+    const videos = document.querySelectorAll("video")
+
+    videos.forEach(video => {
+      video.addEventListener("click", function (){
+        this.play()
+      })
+    })
+    });
+    </script>
+
+    <style>
+
+        body {
+          background-color: whitesmoke;
+        }
+
+        h1 {
+            font-family: 'Rubik Mono One', sans-serif;
+            font-size: 15px;
+            margin-top: 0px;
+            max-width: 50px;
+            color: #161616;
+            margin-left:50px;
+          }
+
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto auto;
+          background-color: transparent;
+          margin-left: 275px;
+          margin-top: 70px;
+        }
+
+        .grid-item {
+          background-color: transparent;
+          width: 400px;
+          align-items: center;
+        }
+
+        .container {
+          height: 900px;
+          width: 200px;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          position: fixed;
+          left: 0px;
+          top:50px;
+          /* background-color: red; */
+        }
+
+        img {
+          webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+          height: 50px;
+          width: 50px;
+          display: flex;
+          /* margin: 23px; */
+          margin-left:50px;
+          margin-top: 10px;
+
+
+
+
+        }
+
+        img:hover {
+          opacity: .5;
+        }
+
+        video {
+          opacity: .6;
+          display: autoplay;
+          height: 520px;
+          padding-left: 25px;
+          padding-bottom: 10px;
+          max-width: 400px;
+          box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        video:hover {
+          opacity: 1;
+        }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="container">
+          <h1> Glue </h1>
+      <img src="cloudslime1.jpg">
+      <img src="clearslime1.png">
+      <img src="crunchyslime2.png">
+      <img src="glueslime1.jpg">
+    </div>
+
+<div class="grid-container">
+
+  <div class="grid-item">
+    <div id="one">
+    <video width="400" src="gluevids/glue1.mp4" loop preload></video>
+    </div>
+  </div>
+
+    <div id="one">
+    <div class="grid-item">
+      <video width="400" src="gluevids/glue2.mp4" loop preload></video>
+    </div>
+  </div>
+
+    <div id="one">
+    <div class="grid-item">
+      <video width="400" src="gluevids/glue3.mp4" loop preload></video>
+    </div>
+  </div>
+
+    <div id="one">
+    <div class="grid-item">
+      <video src="gluevids/glue4.mp4" loop preload></video>
+    </div>
+  </div>
+
+    <div id="one">
+    <div class="grid-item">
+      <video width="400" src="gluevids/glue5.mp4" loop preload></video>
+    </div>
+  </div>
+
+    <div id="one">
+    <div class="grid-item">
+      <video width="400" src="gluevids/glue6.mp4" loop preload></video>
+    </div>
+  </div>
+
+    <div id="one">
+    <div class="grid-item">
+      <video width="400" src="gluevids/glue7.mp4" loop preload></video>
+    </div>
+  </div>
+
+    <div id="one">
+    <div class="grid-item">
+      <video width="400" src="gluevids/glue8.mp4" loop preload></video>
+    </div>
+  </div>
+
+
+</div>
+
+  </body>
+</html>
