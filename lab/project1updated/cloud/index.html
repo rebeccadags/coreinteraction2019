@@ -34,27 +34,31 @@
         .grid-container {
           display: grid;
           grid-template-columns: auto auto;
-          background-color: transparent;
-          margin-left: 275px;
-          margin-top: 70px;
+          margin-left: 190px;
+          margin-top: 90px;
+          width: 350vw;
+          height: 650px;
+          display: flex;
+          justify-content: space-evenly;
         }
 
         .grid-item {
-          background-color: transparent;
-          width: 600px;
-          align-items: center;
+          height: 650px;
         }
 
         .container {
-          height: 900px;
-          width: 200px;
+          padding-top: 70px;
+          height: 100vh;
+          width: 170px;
+          top:0;
           flex-direction: column;
           flex-wrap: wrap;
           justify-content: space-evenly;
           position: fixed;
           left: 0px;
-          top:50px;
-          /* background-color: red; */
+          background-color: whitesmoke;
+          z-index: 5;
+          box-shadow: 4px 0px 5px #efeff2;
         }
 
         img {
@@ -63,8 +67,7 @@
           height: 50px;
           width: 50px;
           display: flex;
-          /* margin: 23px; */
-          margin-left:55px;
+          margin-left:60px;
           margin-top: 10px;
         }
 
@@ -74,16 +77,21 @@
 
         video {
           opacity: .6;
-          display: autoplay;
-          height: 520px;
-          padding-left: 25px;
-          padding-bottom: 10px;
-          max-width: 500px;
-          box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          height: 650px;
+          width: auto;
+          box-shadow: 0px 0px 10px 0 #c979d1, 0px 6px 20px 0 #c979d1;
+          filter: saturate(2);
         }
 
         video:hover {
           opacity: 1;
+        }
+
+        .blob {
+          margin-left: 89vw;
+          position: fixed;
+          margin-top: 80vh;
+          z-index: 7;
         }
     </style>
 
@@ -92,10 +100,14 @@
   <body>
     <div class="container">
       <h1> Cloud </h1>
-      <img src="cloudslime1.jpg">
-      <img src="clearslime1.png">
-      <img src="crunchyslime2.png">
-      <img src="glueslime1.jpg">
+      <a href="../cloud/index.html"><img src="cloudslime1.jpg"></a>
+      <a href="../clear/index.html"><img src="clearslime1.png"></a>
+      <a href="../crunchy/index.html"><img src="crunchyslime2.png"></a>
+      <a href="../glue/index.html"><img src="glueslime1.jpg"></a>
+    </div>
+
+    <div class="blob">
+      <a href="../index.html"><img src="blob.png"></a>
     </div>
 
 <div class="grid-container">

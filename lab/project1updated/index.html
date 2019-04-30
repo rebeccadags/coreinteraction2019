@@ -10,43 +10,35 @@
           background-color: whitesmoke;
         }
 
+        .container {
+          position: fixed;
+          bottom: 40px;
+          width: 1500px;
+          right: 0px;
+        }
+
         h1 {
           font-family: 'Rubik Mono One', sans-serif;
-          font-size: 150px;
-          margin-top: 5px;
-          margin-left:5px;
-          margin-bottom: 3px;
-          color: #161616;
-        }
-
-        #clear {
-          margin-left: 450px;
-          margin-right: 0px;
-          margin-top: -130px;
-        }
-
-        #cloud {
-        }
-
-        #glue {
-          margin-left: 875px;
+          font-size: 135px;
           margin-top: 20px;
-        }
-
-        #crunchy {
-          margin-left: 1100px;
-          margin-top: -750px;
+          margin-left:15px;
+          margin-bottom: 3px;
+          line-height: 173px;
+          color: #161616;
+          position: center;
         }
 
         img {
           webkit-clip-path: circle(50% at 50% 50%);
           clip-path: circle(50% at 50% 50%);
-          height: 275px;
-          width: 275px;
+          height: 250px;
+          width: 250px;
           display: flex;
-          margin-left:10px;
+          margin-left: 95px;
+          margin-right: 30px;
           flex-direction: column;
           flex-wrap: wrap;
+          float: left;
         }
 
         img:hover {
@@ -56,8 +48,9 @@
     </style>
   </head>
   <body>
-      <h1> PICK A <br> SLIME </h1>
+      <h1> PICK A <br> SLIME</h1>
 
+      <div class="container">
     <div id="cloud">
       <a href="cloud/index.html">
         <img src="cloudslime1.jpg">
@@ -80,6 +73,7 @@
     <a href="glue/index.html">
       <img src="glueslime1.jpg">
     </a>
+  </div>
   </div>
 
   </body>
